@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import {CityLogo} from '../ui/icons';
 
 const Footer = () => {
@@ -21,4 +21,4 @@ const Footer = () => {
     );
 };
 
-export default Footer;
+export default Footer;*/
