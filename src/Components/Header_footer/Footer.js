@@ -1,24 +1,23 @@
-/*import React from 'react';
-import {CityLogo} from '../ui/icons';
+import React from 'react';
+import { CityLogo } from '../ui/icons';
 
 const Footer = () => {
     return (
-        <Footer className="bck_blue">
+        <footer className="bck_blue">
             <div className="footer_logo">
                 <CityLogo
                     width="70px"
                     height="70px"
                     link={true}
-                    linkTo="/"                
+                    linkTo="/"
                 />
             </div>
-            <div className="footer_dicl">
-                Manchster city 2020.All rights reserved.
-
+            <div className="footer_discl">
+                Manchester city 2018.All rights reserved.
             </div>
             
-        </Footer>
+        </footer>
     );
 };
 
-export default Footer;*/
+export default Footer;
