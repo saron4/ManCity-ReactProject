@@ -1,5 +1,6 @@
 import React from 'react';
-import { Tag } from '../../ui/minsc';
+import { Tag } from '../../ui/misc';
+import Blocks from './Blocks';
 
 const MatchesHome = () => {
     return (
@@ -10,9 +11,11 @@ const MatchesHome = () => {
                     size="50px"
                     color="#ffffff"
                 >
-                    matches
-                    </Tag>
-                BLOCK
+                    Matches
+                </Tag>
+
+                    <Blocks/>
+
                 <Tag
                     bck="#ffffff"
                     size="22px"
@@ -20,10 +23,10 @@ const MatchesHome = () => {
                     link={true}
                     linkto="/the_team"
                 >
-                    see more matches.
+                    See more matches
                 </Tag>
+
             </div>
-            
         </div>
     );
 };
